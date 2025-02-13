@@ -3,10 +3,16 @@ export interface NavProps {
   visible: boolean;
 }
 
-export const Nav = ({ title }: NavProps) => {
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export const Nav = (props: NavProps) => {
   return (
-    <div className='flex w-12 border rounded-sm items-center justify-center uppercase'>{title}</div>
+    <div className='hidden sm:flex flex-col gap-4 w-12'>
+      <div className="rounded-sm w-12 h-12 --bg-secondary" />
+      <div className="rounded-sm w-12 h-12 --bg-tertiary" />
+      <div className="rounded-sm w-12 h-12 --bg-secondary" />
+      <div className="rounded-sm w-12 h-12 --bg-tertiary" />
+      <div className="rounded-sm w-12 h-12 --bg-secondary" />
+    </div>
   )
 };
 

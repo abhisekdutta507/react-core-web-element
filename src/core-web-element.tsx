@@ -2,6 +2,7 @@ import { Header, HeaderProps } from './header';
 import { Nav, NavProps } from './nav';
 import { Content, ContentProps } from './content';
 import { Sidebar, SidebarProps } from './sidebar';
+import './styles.css';
 
 export interface CoreWebElementProps {
   header: HeaderProps;

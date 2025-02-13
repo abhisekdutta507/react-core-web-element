@@ -1,0 +1,57 @@
+.--bg-primary {
+  background-color: var(--primary);
+}
+
+.--bg-secondary {
+  background-color: var(--secondary);
+}
+
+.--bg-tertiary {
+  background-color: var(--tertiary);
+}
+
+.--bg-error {
+  background-color: var(--error);
+}
+
+.--bg-warning {
+  background-color: var(--warning);
+}
+
+.--bg-success {
+  background-color: var(--success);
+}
+
+.--bg-grey {
+  background-color: var(--grey);
+}
+
+/* Font colors starts here */
+
+.--text-primary {
+  color: var(--primary);
+}
+
+.--text-secondary {
+  color: var(--secondary);
+}
+
+.--text-tertiary {
+  color: var(--tertiary);
+}
+
+.--text-error {
+  color: var(--error);
+}
+
+.--text-warning {
+  color: var(--warning);
+}
+
+.--text-success {
+  color: var(--success);
+}
+
+.--text-grey {
+  color: var(--grey);
+}
